@@ -72,7 +72,7 @@ main {
     max-width: 100%;
     height: auto;
 
-    @media (max-width: 989px) {
+    @media (min-width: 989px) {
         display: none;
     }
 }
