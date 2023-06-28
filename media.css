@@ -1,24 +1,28 @@
 @media screen and (max-width:480px) {
     .layout {
         margin: 0;
-     overflow-x: hidden;
-
+        overflow-x: hidden;
     }
     .background-product {
         display: none;
     }
-    .main-layout,.main-layout__title {
-        margin: 0;
+    .main-layout, .main-layout__title {
+        margin: 0 0 20px;
+
     }
     .main-layout__title {
-        font-size: 65px;
+        font-size: 45px;
+    }
+    .main-layout .main-layout__paragraph,
+    .main-layout__title 
+     {
+        text-align: center;
+        width: 100%;
     }
     .navbar-brand {
         margin:0 60px 0 0;
     }
-    .main-layout__title {
-        width: 100%;
-    }
+   
     .main-instruction__sushi img {
         display: none;
     }
@@ -26,5 +30,8 @@
     .section-subscribe__burger img {
         width: 200px;
         height: auto;
+    }
+    .btn-gs {
+        margin: 30px auto;
     }
 }
