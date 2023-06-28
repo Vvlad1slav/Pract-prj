@@ -554,7 +554,7 @@ footer .footer-top form button {
     right: 0;
     background: none;
 }
-@media screen and (max-width:480px) {
+@media screen and (max-width:600px) {
     .layout {
         margin: 0;
     }
