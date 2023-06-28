@@ -1,12 +1,12 @@
 .layout,
 .main-layout {
-    @media (max-width: 480px) {
+     @media screen and (min-width: 481px) and (max-width: 768px) {
         margin: 0;
     }
 }
 
 header .navbar {
-    @media (max-width: 480px) {
+     @media screen and (min-width: 481px) and (max-width: 768px) {
         padding: 0;
         margin: 0;
     }
@@ -19,13 +19,13 @@ header .navbar {
 }
 
 .main-layout__paragraph {
-    @media (max-width: 480px) {
+     @media screen and (min-width: 481px) and (max-width: 768px) {
         padding-right: 30px;
     }
 }
 
 header .header .navbar-brand {
-    @media (max-width: 480px) {
+     @media screen and (min-width: 481px) and (max-width: 768px) {
         margin: 0;
     }
 }
@@ -35,7 +35,7 @@ header .header .navbar-brand {
         font-size: 34px;
     }
 
-    @media (max-width: 480px) {
+     @media screen and (min-width: 481px) and (max-width: 768px) {
         font-size: 40px;
         margin-top: 10px;
         width: 100%;
@@ -43,7 +43,7 @@ header .header .navbar-brand {
 }
 
 .btn-gs {
-    @media (max-width: 480px) {
+     @media screen and (min-width: 481px) and (max-width: 768px) {
         width: 120px;
         height: 40px;
         font-size: 12px;
@@ -57,7 +57,7 @@ header .header .navbar-brand {
 }
 
 .btn-gs img {
-    @media (max-width: 480px) {
+     @media screen and (min-width: 481px) and (max-width: 768px) {
         width: 30px;
         height: 30px;
         font-size: 13px;
@@ -66,7 +66,7 @@ header .header .navbar-brand {
 }
 
 .main-block-title p:last-of-type {
-    @media (max-width: 480px) {
+     @media screen and (min-width: 481px) and (max-width: 768px) {
         width: 100%;
         font-size: 11px;
 
@@ -74,7 +74,7 @@ header .header .navbar-brand {
 }
 
 .main-contacts {
-    @media (max-width: 480px) {
+     @media screen and (min-width: 481px) and (max-width: 768px) {
         padding: 25px 0;
         margin: 40px 0 0;
         font-size: 11px;
@@ -84,13 +84,13 @@ header .header .navbar-brand {
     padding:  0 10px;
 }
 .main-contacts__div img {
-    @media (max-width: 480px) {
+     @media screen and (min-width: 481px) and (max-width: 768px) {
         width: 35px;
     }
 }
 
 .main-contacts .main-contacts__title {
-    @media (max-width: 480px) {
+    @media screen and (min-width: 481px) and (max-width: 768px) {
         font-size: 11px;
         text-align: center;
     }
