@@ -1,0 +1,98 @@
+.layout,
+.main-layout {
+    @media (max-width: 480px) {
+        margin: 0;
+    }
+}
+
+header .navbar {
+    @media (max-width: 480px) {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.background-product .background-product__container img {
+    @media (max-width: 989px) {
+        display: none;
+    }
+}
+
+.main-layout__paragraph {
+    @media (max-width: 480px) {
+        padding-right: 30px;
+    }
+}
+
+header .header .navbar-brand {
+    @media (max-width: 480px) {
+        margin: 0;
+    }
+}
+
+.main-layout__title {
+    @media (max-width: 768px) {
+        font-size: 34px;
+    }
+
+    @media (max-width: 480px) {
+        font-size: 40px;
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+
+.btn-gs {
+    @media (max-width: 480px) {
+        width: 120px;
+        height: 40px;
+        font-size: 12px;
+        padding: 0;
+        margin-bottom: 20px;
+        padding: 0 5px 0 5px;
+    }
+}
+.btn-gs__title {
+    margin: 0 10px 0 3px;
+}
+
+.btn-gs img {
+    @media (max-width: 480px) {
+        width: 30px;
+        height: 30px;
+        font-size: 13px;
+    }
+
+}
+
+.main-block-title p:last-of-type {
+    @media (max-width: 480px) {
+        width: 100%;
+        font-size: 11px;
+
+    }
+}
+
+.main-contacts {
+    @media (max-width: 480px) {
+        padding: 25px 0;
+        margin: 40px 0 0;
+        font-size: 11px;
+    }
+}
+.main-contacts .main-contacts__div {
+    padding:  0 10px;
+}
+.main-contacts__div img {
+    @media (max-width: 480px) {
+        width: 35px;
+    }
+}
+
+.main-contacts .main-contacts__title {
+    @media (max-width: 480px) {
+        font-size: 11px;
+        text-align: center;
+    }
+
+}
