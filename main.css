@@ -30,12 +30,17 @@ body {
     height: 100%;
     max-width: 1920px;
     position: relative;
+
+    @media (max-width: 480px) {
+        overflow: hidden;
+    }
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
     max-width: 100%;
+
 }
 
 .wrapper {
@@ -51,6 +56,7 @@ main {
 /* main*/
 .layout {
     margin-top: 110px;
+
 }
 
 .gray-text {
@@ -72,9 +78,7 @@ main {
     max-width: 100%;
     height: auto;
 
-    @media (max-width: 989px) {
-        display: none;
-    }
+
 }
 
 
@@ -122,11 +126,6 @@ header .header .navbar-collapse a:hover {
 header .header .navbar-brand {
     margin: 0px 170px 0px 55px;
 
-    @media (max-width: 480px) {
-        margin-right: 0;
-    }
-
-
 }
 
 header .header .btn-reg {
@@ -158,15 +157,8 @@ header .header .btn-reg:hover {
     text-transform: capitalize;
     font-size: 4.688rem;
     font-weight: 700;
+    width: 40%;
 
-
-    @media (max-width: 768px) {
-        font-size: 34px;
-    }
-
-    @media (max-width: 480px) {
-        font-size: 26px;
-    }
 
 }
 
@@ -174,11 +166,7 @@ header .header .btn-reg:hover {
     font-size: 1rem;
     color: var(--color-gray);
     margin: 0;
-
-    @media (max-width: 480px) {
-        font-size: 11px;
-    }
-
+    width: 50%;
 }
 
 .btn-gs {
@@ -569,6 +557,6 @@ footer .footer-top form input::placeholder,
 footer .footer-top form button {
     border: none;
     position: absolute;
-    right: 12%;
+    right: 0;
     background: none;
 }
