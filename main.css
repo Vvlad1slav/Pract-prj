@@ -30,16 +30,10 @@ body {
     height: 100%;
     max-width: 1920px;
     position: relative;
-
-    @media (max-width: 480px) {
-        overflow: hidden;
-    }
 }
 
 body {
     font-family: 'Roboto', sans-serif;
-    overflow-x: hidden;
-    max-width: 100%;
 
 }
 
@@ -123,7 +117,7 @@ header .header .navbar-collapse a:hover {
     color: var(--color-orange);
 }
 
-header .header .navbar-brand {
+.navbar-brand {
     margin: 0px 170px 0px 55px;
 
 }
@@ -559,4 +553,24 @@ footer .footer-top form button {
     position: absolute;
     right: 0;
     background: none;
+}
+@media screen and (max-width:480px) {
+    .layout {
+        margin: 0;
+    }
+    .background-product {
+        display: none;
+    }
+    .main-layout,.main-layout__title {
+        margin: 0;
+    }
+    .main-layout__title {
+        font-size: 65px;
+    }
+    .navbar-brand {
+        margin:0 60px 0 0;
+    }
+    .main-layout__title {
+        width: 100%;
+    }
 }
