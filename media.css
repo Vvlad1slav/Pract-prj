@@ -1,100 +1,12 @@
-.layout,
-.main-layout {
-     @media screen and (min-width: 481px) and (max-width: 768px) {
-        margin: 0;
-                  min-width: 100%;
 
-    }
+@media screen and (max-width:480px) {
+
+    header .header .navbar-brand {
+margin: 0px 90px 0px 55px;   }
+        
 }
-
-header .navbar {
-     @media screen and (min-width: 481px) and (max-width: 768px) {
-        padding: 0;
-        margin: 0;
-    }
-}
-
-.background-product .background-product__container img {
-    @media (max-width: 989px) {
+@media screen and (max-width:480px) {
+    .background-product {
         display: none;
     }
-}
-
-.main-layout__paragraph {
-     @media screen and (min-width: 481px) and (max-width: 768px) {
-        padding-right: 30px;
-    }
-}
-
-header .header .navbar-brand {
-     @media screen and (min-width: 481px) and (max-width: 768px) {
-        margin: 0;
-    }
-}
-
-.main-layout__title {
-    @media (max-width: 768px) {
-        font-size: 34px;
-    }
-
-     @media screen and (min-width: 481px) and (max-width: 768px) {
-        font-size: 40px;
-        margin-top: 10px;
-        width: 100%;
-    }
-}
-
-.btn-gs {
-     @media screen and (min-width: 481px) and (max-width: 768px) {
-        width: 120px;
-        height: 40px;
-        font-size: 12px;
-        padding: 0;
-        margin-bottom: 20px;
-        padding: 0 5px 0 5px;
-    }
-}
-.btn-gs__title {
-    margin: 0 10px 0 3px;
-}
-
-.btn-gs img {
-     @media screen and (min-width: 481px) and (max-width: 768px) {
-        width: 30px;
-        height: 30px;
-        font-size: 13px;
-    }
-
-}
-
-.main-block-title p:last-of-type {
-     @media screen and (min-width: 481px) and (max-width: 768px) {
-        width: 100%;
-        font-size: 11px;
-
-    }
-}
-
-.main-contacts {
-     @media screen and (min-width: 481px) and (max-width: 768px) {
-        padding: 25px 0;
-        margin: 40px 0 0;
-        font-size: 11px;
-    }
-}
-.main-contacts .main-contacts__div {
-    padding:  0 10px;
-}
-.main-contacts__div img {
-     @media screen and (min-width: 481px) and (max-width: 768px) {
-        width: 35px;
-    }
-}
-
-.main-contacts .main-contacts__title {
-    @media screen and (min-width: 481px) and (max-width: 768px) {
-        font-size: 11px;
-        text-align: center;
-    }
-
 }
