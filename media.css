@@ -4,7 +4,8 @@
         overflow-x: hidden;
     }
 
-    .background-product {
+    .background-product,
+    .testimonials-section__product {
         display: none;
     }
 
@@ -27,28 +28,44 @@
     .footer .footer-top form input {
         width: 170px;
     }
+
     .footer-top form button img {
         width: 30px;
     }
-    .footer .footer-top img {
-        margin: 30px 0 25px 0;
-    }
-    .footer-top img, .footer-top h4 {
+
+    .footer-top h4 {
         margin: 40px 0 30px;
     }
+
     .footer-top__logo img {
         width: 150px;
+        margin: 30px 0 25px 0;
+
     }
+
+    #footer-col h4 {
+        margin-top: 0;
+
+    }
+
     .footer-top__title {
         font-size: 19px;
-        
+
     }
-    .footer-top__text, .footer-top ul {
+
+    .footer-bottom__copyright {
+        font-size: 12px;
+    }
+
+    .footer-top__text,
+    .footer-top ul {
         font-size: 14px;
     }
+
     .social-icons {
         gap: 8px;
     }
+
     .social-icons img {
         width: 30px;
     }
@@ -61,7 +78,7 @@
         display: none;
     }
 
-    .testimonials-section__food img,
+
     .section-subscribe__burger img {
         width: 200px;
         height: auto;
