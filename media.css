@@ -1,7 +1,4 @@
 @media screen and (max-width:480px) {
-    html {
-        overflow: hidden;
-    }
     .layout {
         margin: 0;
     }
@@ -19,5 +16,13 @@
     }
     .main-layout__title {
         width: 100%;
+    }
+    .main-instruction__sushi img {
+        display: none;
+    }
+    .testimonials-section__food img,
+    .section-subscribe__burger img {
+        width: 200px;
+        height: auto;
     }
 }
