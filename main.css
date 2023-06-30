@@ -160,7 +160,6 @@ header .header .btn-reg:hover {
     font-size: 1rem;
     color: var(--color-gray);
     margin: 0;
-    width: 50%;
 }
 
 .btn-gs {
@@ -169,17 +168,32 @@ header .header .btn-reg:hover {
     background: var(--color-orange);
     color: var(--color-white);
     border-radius: 54px;
-    margin: 24px 0 40px 0;
-
+    margin: 24px 0;
+    position: relative;
+    overflow: hidden;
 }
+
+
 
 .btn-gs__title {
     margin: 0 17px;
     font-weight: 500;
+    z-index: 2;
+    position: relative;
 }
+
+
+
 
 .social-icons {
     gap: 23px;
+
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+    transition: all 0.2s ease;
+
 }
 
 .social-icons a {
@@ -202,7 +216,6 @@ header .header .btn-reg:hover {
 .main-contacts__div {
     flex-direction: column;
     display: flex;
-    justify-content: center;
     align-items: center;
     border-right: 2px solid var(--color-light-gray);
 }
@@ -238,7 +251,6 @@ header .header .btn-reg:hover {
 
 .main-title {
     font-weight: 700;
-    margin-bottom: 60px;
 }
 
 .main-instruction {
@@ -255,11 +267,11 @@ header .header .btn-reg:hover {
 .main-services .services-card {
     border-radius: 60px 0px;
     border: 2px solid #EEE;
+    padding: 50px;
 }
 
 .main-services__title {
     font-size: 26px;
-    margin: 44px 0 22px 0;
     font-weight: 700;
 }
 
@@ -270,7 +282,6 @@ header .header .btn-reg:hover {
 
 .services-card,
 .services-card__food {
-    padding: 70px 20px;
     max-width: 370px;
 }
 
@@ -290,6 +301,18 @@ header .header .btn-reg:hover {
     padding: 0;
     min-width: 370px;
     height: 420px;
+    transition: all 0.3s ease;
+}
+
+.section-subscribe__btn:hover {
+    transform: scale(1.01);
+
+}
+
+.popular-product__card:hover,
+.multi-app__btn:hover,
+.section-review__bottom-buttons button:hover {
+    transform: scale(1.05);
 
 }
 
@@ -342,6 +365,8 @@ header .header .btn-reg:hover {
     border-radius: 54px;
     margin: 60px 0 250px 0;
     font-weight: 500;
+    position: relative;
+    overflow: hidden;
 }
 
 .btn-more__title {
@@ -375,6 +400,7 @@ header .header .btn-reg:hover {
     border-radius: 13px;
     width: 220px;
     height: 80px;
+    transition: all 0.3s ease;
     justify-content: center;
 }
 
@@ -464,6 +490,7 @@ header .header .btn-reg:hover {
 
 .section-review__bottom-buttons button {
     background: var(--color-white);
+    transition: all 0.2s ease;
 }
 
 .section-subscribe__wrap {
@@ -494,6 +521,8 @@ header .header .btn-reg:hover {
     position: absolute;
     right: 8px;
     width: 120px;
+    transition: transform 0.1s ease;
+
 }
 
 .section-subscribe__burger {
@@ -524,6 +553,7 @@ a {
     font-size: 15px;
     color: var(--color-gray);
 }
+
 
 .footer-top__logo img {
     margin: 95px 0 35px 0
