@@ -77,14 +77,16 @@
 
     .section-subscribe__info {
         margin: 0;
+        padding-left: 40px
     }
 
     .section-subscribe__info p {
         margin: 0 0 10px 0;
+        font-size: 8px;
     }
 
     .section-subscribe__info h1 {
-        font-size: 16px;
+        font-size: 14px;
         margin-top: 10px;
     }
 
@@ -93,8 +95,9 @@
     }
 
     .section-subscribe .section-subscribe__info form button {
-        height: 25px;
+        height: 20px;
         width: 50px;
+        font-size: 7px;
     }
 
     .section-subscribe .section-subscribe__info form input {
@@ -108,12 +111,12 @@
     }
 
     .section-subscribe__burger {
-        top: -20%;
-        left: -35%;
+        top: -17%;
+        left: -40%;
     }
 
     .section-subscribe__burger-wrap .section-subscribe__burger img {
-        width: 186px;
+        width: 177px;
         position: absolute;
     }
 
