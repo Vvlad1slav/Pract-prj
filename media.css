@@ -1,4 +1,40 @@
+@media screen and (min-width:769px) {
+
+    .btn-gs img,
+    .btn-more img {
+        position: absolute;
+        top: 50%;
+        right: -5%;
+        transform: translate(-50%, -50%) scale(0);
+        transition: all 0.3s ease-in;
+    }
+
+    .btn-gs:hover img,
+    .btn-more:hover img {
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    .btn-gs:not(:hover) .btn-gs__title,
+    .btn-more:not(:hover) .btn-more__title {
+        transform: translate(0, 0) scale(1);
+        transition: transform 0.3s ease-in;
+
+    }
+
+    .btn-more:hover .btn-more__title {
+        transition: transform 0.3s ease-in;
+        transform: translate(-17%, 0%) scale(1);
+    }
+
+    .btn-gs:hover .btn-gs__title {
+        transition: transform 0.3s ease-in;
+        transform: translate(-30%, 0%) scale(1);
+    }
+
+}
+
 @media screen and (max-width:480px) {
+
     .layout {
         margin: 0;
         overflow-x: hidden;
@@ -21,10 +57,98 @@
     }
 
     .main-layout .main-layout__paragraph {
-        text-align: center;
-        width: 100%;
+        min-width: 100%;
     }
 
+    .navbar-brand {
+        margin: 0 60px 0 0;
+    }
+
+    .main-instruction__sushi img {
+        opacity: 0.2;
+        width:100%;
+    }
+
+    .section-subscribe {
+        width: 100%;
+        height: 140px;
+        font-size: 10px;
+    }
+
+    .section-subscribe__info {
+        margin: 0;
+    }
+
+    .section-subscribe__info p {
+        margin: 0 0 10px 0;
+    }
+
+    .section-subscribe__info h1 {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .section-subscribe__info form input::placeholder {
+        font-size: 9px;
+    }
+
+    .section-subscribe .section-subscribe__info form button {
+        height: 25px;
+        width: 50px;
+    }
+
+    .section-subscribe .section-subscribe__info form input {
+        height: 25px;
+        font-size: 7px;
+        width: 150px;
+    }
+
+    .section-subscribe__wrap {
+        margin: 50px 0;
+    }
+
+    .section-subscribe__burger {
+        top: -20%;
+        left: -35%;
+    }
+
+    .section-subscribe__burger-wrap .section-subscribe__burger img {
+        width: 186px;
+        position: absolute;
+    }
+
+    .btn-gs {
+        margin: 30px auto;
+    }
+
+    .main-contacts {
+        padding: 30px 15px
+    }
+
+    .main-contacts,
+    .main-contacts .main-contacts__title {
+        margin: 0;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .main-instruction {
+        min-width: 100%;
+        margin: 70px 0;
+    }
+
+    .main-services {
+        min-width: 100%;
+        margin: 0;
+    }
+
+    .main-services .services-card {
+        padding: 30px;
+    }
+
+
+
+    /*Footer media*/
     .footer .footer-top form input {
         width: 170px;
     }
@@ -49,7 +173,7 @@
     }
 
     .footer-top__title {
-        font-size: 19px;
+        font-size: 18px;
 
     }
 
@@ -64,27 +188,13 @@
 
     .social-icons {
         gap: 8px;
+        display: flex;
+        justify-content: center;
     }
 
     .social-icons img {
-        width: 30px;
-    }
-
-    .navbar-brand {
-        margin: 0 60px 0 0;
-    }
-
-    .main-instruction__sushi img {
-        display: none;
+        width: 35px;
     }
 
 
-    .section-subscribe__burger img {
-        width: 200px;
-        height: auto;
-    }
-
-    .btn-gs {
-        margin: 30px auto;
-    }
 }
