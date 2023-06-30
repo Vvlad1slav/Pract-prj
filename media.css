@@ -66,7 +66,7 @@
 
     .main-instruction__sushi img {
         opacity: 0.2;
-        width:100%;
+        width: 100%;
     }
 
     .section-subscribe {
@@ -153,11 +153,14 @@
 
     /*Footer media*/
     .footer .footer-top form input {
-        width: 170px;
+        width: 160px;
+    }
+    .footer .footer-top form input::placeholder {
+        font-size: 11px;
     }
 
     .footer-top form button img {
-        width: 30px;
+        width: 25px;
     }
 
     .footer-top h4 {
@@ -165,34 +168,37 @@
     }
 
     .footer-top__logo img {
-        width: 150px;
-        margin: 30px 0 25px 0;
+        width: 110px;
+        margin: 35px 0 25px 0;
 
     }
 
     #footer-col h4 {
         margin-top: 0;
-
     }
 
     .footer-top__title {
-        font-size: 18px;
+        font-size: 14px;
 
     }
 
     .footer-bottom__copyright {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .footer-top__text,
     .footer-top ul {
-        font-size: 14px;
+        font-size: 11px;
     }
 
     .social-icons {
-        gap: 8px;
+        gap: 7px;
         display: flex;
         justify-content: center;
+    }
+
+    .footer-top .social-icons img {
+        width: 30px;
     }
 
     .social-icons img {
